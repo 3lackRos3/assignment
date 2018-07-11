@@ -1,8 +1,5 @@
 [![Build Status](https://travis-ci.org/3lackRos3/assignment.svg?branch=master)](https://travis-ci.org/3lackRos3/assignment)
-<<<<<<< HEAD
 
-=======
->>>>>>> e471befc0f7f6291f9a7b1d7bf7721092847902b
 # README
 
 A simple task management application built with Ruby 2.5.1 and Rails 5.2
