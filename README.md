@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/3lackRos3/assignment.svg?branch=master)](https://travis-ci.org/3lackRos3/assignment)
 # README
 
 This README would normally document whatever steps are necessary to get the
