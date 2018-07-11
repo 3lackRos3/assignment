@@ -1,24 +1,42 @@
+[![Build Status](https://travis-ci.org/3lackRos3/assignment.svg?branch=master)](https://travis-ci.org/3lackRos3/assignment)
+
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple task management application built with Ruby 2.5.1 and Rails 5.2
 
-Things you may want to cover:
+* Ruby version - 2.5.1. Can use rbenv to install Ruby (https://github.com/rbenv/rbenv)
+* Sqlite is used as the datastore
 
-* Ruby version
+* Once ruby is installed, then install bundler gem by using command 
+```
+gem install bundler
+```
+* Then inside the project directory install the required gems by using the following command
 
-* System dependencies
+```
+bundle install
+```
 
-* Configuration
+* Database creation - Run the following command create the database and tables
+```
+rake db:migrate
+```
 
-* Database creation
+* Database initialization - Run the following command to create seed data
 
-* Database initialization
+```
+rake db:seed
+```
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle exec rspec
+```
 
-* Deployment instructions
+* To run the application use
 
-* ...
+```
+rails s
+```
+
