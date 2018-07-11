@@ -1,5 +1,9 @@
 language: ruby
 rvm:
-  - 2.5.1
-script: 
-  - bundle exec rspec
+- 2.5.1
+script:
+- bundle exec rspec
+deploy:
+  provider: heroku
+  api_key:
+    secure: tM5iTWO2DLmXwjMSgCu0uVEbTngqUSbwPNJmgIT2FO4mRHEVrJUM8JmR3E49ri4Omr66kyCq4xT4zh3q5SuLD3AxFnLgIFSf/qOQt9yEtcVnJbTgpkn3JTv7D6EWUmI6x3u7I5o7G/CefbPTmA484QvNmMlUT9JVLXGl92ubfjowXXO1G2SNiiAISJHLHqhaiOVB39z9iVMw8jcbFH6EJ9cpVPcByAH8ZSWOBSKl8W0A7A+E19u6G3CcSzXkmuOp1CIPNCYUwg3ZTBwmhfongAGiiw4/03IkZ98z9TfFmjTimyN38euni3kDCIWkOFWy2DyytLHfPcU7ioKLfRTr0rIqjABpROaXcHKnuiSXmvjwEHgYeah2ZhtogILSBq6IsRb+6ctBLcbAtNqC6zXGQhMsHnJAnvxIMvzpuHootGEmKHUtVvQrW/eidwJCljLAgEN3uB9KdjPkYHy5984+QhdN+TqCdkrrgwZJbh2BxEG8ATQYZbqg/TcXjLXsPrwUA2EcstMZkmvkpaipIUcx0aoF2ciu8mLf7ceZPgR648WvUomP5DizEX85KcRqXQDjH8fOWDEsuQVNSFLym516TTwaEg2e++K+9fIKKaFXWTZzPgCihF4bXslzrqP78wghcf0HVlWeee+Ixq6rBIwlJsKC5uPNfKRmNGBQgdqMveA=
